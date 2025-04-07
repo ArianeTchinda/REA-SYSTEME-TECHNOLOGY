@@ -1,0 +1,68 @@
+.hero {
+    position: relative;
+    height: 530px;
+    color: white;
+    background: url('../images/Extincteurs/fire-extinguishers.jpg') center/cover no-repeat;
+  }
+  
+  a{
+    text-decoration: none; 
+    color: inherit;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    color: white;
+  }
+
+  .ligne{
+    height: 1px;
+    background-color: white;
+  }
+
+  .hero-content h1 {
+    font-weight: 900; 
+    font-size: 3.5rem; 
+    margin-bottom: 10px;
+  }
+  
+  
+  .hero-content p{
+    font-weight:300;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+
+  .hero-content button {
+    margin-top: 30%;
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+
+  .hero-content button:hover{
+    
+    color: black;
+    background-color: aliceblue;
+  }
+
+  .hero-content button p{
+    font-size: x-large;
+    margin-top: 5px;
+
+  }
+  

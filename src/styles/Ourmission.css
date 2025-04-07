@@ -1,0 +1,249 @@
+.PresentationFrame{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 50px;
+}
+
+.presentation{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titreP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.titreM{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.PresentationFrame h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+    
+}
+
+.presentationFrame p{
+    font-size: large;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.ligne2{
+    margin-top: 5px;
+    width: 50px;
+    height: 3px;
+    background-color: #ee0404;
+}
+
+.Ourmission {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.Ourmission img{
+    width: 100%;
+    height: 400px;
+}
+  
+.Ourmission-texte{
+    flex: 1;
+    text-align: justify;
+}
+
+.bordure-image{
+    flex: 1;
+    border-left: 3px solid #fd0d0d;
+    border-bottom: 3px solid #fa0b0b ;
+    padding: 5px;
+    
+} 
+
+.OurmissionSection {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #f3f5f8;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+    flex: 1;
+    position: relative;
+}
+
+.imageMission {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.missionContent {
+    flex: 1;
+    padding: 20px;
+}
+
+.missionTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #111;
+}
+
+.missionText {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.tipsTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tipsList {
+    list-style: none;
+    padding: 0;
+}
+
+.tipsList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.section-conteneur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.galerie {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+}
+
+.image-item img {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
+    transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+    transform: scale(1.05);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    background-color: #ee0404;
+    color: white;
+    height: 100px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.stat-item {
+    margin: 0 30px;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.stat-item p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+.partenaires {
+    margin: 20px 0;
+    background-color: #f3f3f3;
+    padding: 15px;
+    width: 100%;
+}
+
+.partenaires marquee {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.partenaires img {
+    height: 100px;
+    border-radius: 50px;
+    width: 100px;
+    object-fit: fill;
+    transition: transform 0.3s ease;
+}
+
+.partenaires img:hover {
+    transform: scale(1.1);
+}
+
+.valeurs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.valeur-item {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px ;
+    border-radius: 20px;
+    background-color: #cbdafc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.valeur-item:hover {
+    transform: scale(1.05);
+}
+
+.icone {
+    margin-bottom: 15px;
+}
+
+.valeurs-container h3 {
+    font-size: 1.5rem;
+    color: #ff0000;
+    margin: 0;
+}
+
+.valeurs-container p {
+    font-size: 1rem;
+    color: #555;
+}

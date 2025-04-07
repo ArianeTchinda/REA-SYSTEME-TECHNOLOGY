@@ -1,0 +1,120 @@
+.prestation-section {
+    text-align: center;
+    padding: 50px 50px;
+    background: #e9e5e5;
+  }
+  
+  .prestation-title1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  
+  .prestation-container {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+  }
+  
+  .Titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+
+  .Rond{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+  }
+
+  .prestation-card {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 350px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.479);
+    object-fit: fill;
+  }
+  
+  .prestation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .prestation-overlay {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    min-height: 30%;
+    margin-top: -50%; 
+    background: #E1D9D9;
+    padding: 15px;
+    border-radius: 0px;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .prestation-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .prestation-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .prestation-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  
+  .prestation-card:hover .prestation-overlay {
+    background: red;
+    color: white;
+  }
+  
+  .prestation-card:hover .prestation-button {
+    background: white;
+    color: red;
+  }
+  
+  .voir-plus {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  .voir-plus:hover {
+    background: darkred;
+  }
+  

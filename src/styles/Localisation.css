@@ -1,0 +1,79 @@
+.localisation-container {
+    display: flex;
+    
+    justify-content: space-between;
+
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .map-section {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cameroon-map {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .agencies-info {
+    flex: 1;
+    width: 400px;
+    padding-left: 20px;
+    border-left: 2px solid #e0e0e0;
+  }
+  
+  .agencies-info h3 {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .agency-detail {
+    margin-bottom: 15px;
+  }
+  
+  .agency-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .agency-header .location-icon {
+    margin-right: 10px;
+  }
+  
+  .agency-header h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info .phone-icon {
+    margin-right: 10px;
+  }
+  
+  .red-marker h4 {
+    color: #FF0000;
+  }
+  
+  .black-marker h4 {
+    color: #000000;
+  }
+  
+  .location-pin {
+    transition: transform 0.3s ease;
+  }
+  
+  .location-pin:hover {
+    transform: translateY(-5px);
+  }
