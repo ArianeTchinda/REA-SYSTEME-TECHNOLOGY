@@ -1,2 +1,2 @@
 # REA-SYSTEME-TECHNOLOGY
-Site web de l'entreprise RST qui fais dans la sécurité incendie
+Ceci est le site de RST. Il s'agit d'une entreprise spécialisée dans la sécurité incendie et la prévention des catastrophes .
