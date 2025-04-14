@@ -56,7 +56,7 @@ const Navbar = () => {
                 <span className="underline"></span>
               </Link>
 
-              {/* Sous-menu pour Services et Produits */}
+            
               {item.dropdown && isDropdownOpen && (
                 <div className="dropdown">
                   {item.dropdown.map((subItem) => (

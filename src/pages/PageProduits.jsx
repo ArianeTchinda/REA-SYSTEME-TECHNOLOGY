@@ -3,12 +3,14 @@
 //import Navbar from "../components/Acceuil/Navbar";
 import HeadProduit from "../components/Produit/HeadProduit";
 import ExtincteursPage from "../components/Produit/ExtincteurPage";
+import Footer from "../components/Footer/Footer";
 
 const PageProduits = () => {
     return (
         <div>
             <HeadProduit/>
             <ExtincteursPage/>
+            <Footer/>
         </div>
     )
 }

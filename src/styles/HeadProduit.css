@@ -6,7 +6,7 @@
 .HeadP{
     position: relative;
     height: 400px;
-    background-size:contain;
+    background-size: cover;
     background-image: url("../images/Extincteurs/fire-extinguishers.jpg");
 }
 

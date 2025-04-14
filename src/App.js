@@ -5,6 +5,8 @@ import PageProduits from './pages/PageProduits';
 import Apropos from './pages/Apropos';
 import Navbarone from './components/Acceuil/Navbar1';
 import Navbar from './components/Acceuil/Navbar';
+import Electronique from './components/Electronique/Elecronique';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -30,7 +32,11 @@ function App() {
        </Routes>
 
        <Routes>
-         <Route path="/Contact" element = {<HomePage/>}/>
+         <Route path="/contact" element = {<Contact/>}/>
+       </Routes>
+
+       <Routes>
+         <Route path="/Produits/controle-d'acces" element = {<Electronique/>} />
        </Routes>
     </div>
     </Router>

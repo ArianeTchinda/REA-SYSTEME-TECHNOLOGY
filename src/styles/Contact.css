@@ -1,0 +1,110 @@
+.contact-container {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    padding: 50px ;
+    text-align: center;
+  }
+  
+  .contact-header {
+    margin-bottom: 40px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    color:#050397;
+    margin: 10px 0;
+  }
+  
+  .contact-header h1 span {
+    color: #f10c0c; 
+  }
+  
+  .underline1 {
+    width: 60px;
+    height: 4px;
+    background-color: #050397; 
+    margin: 10px auto;
+  }
+  
+  .contact-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1px;
+    overflow: hidden;
+    border: 1px solid #fff;
+  }
+  
+  .contact-card {
+    background-color: #050397; 
+    color: white;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .contact-card h3 {
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+  }
+  
+  .contact-card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+ 
+  .contact-btn1 {
+    background-color:#f10c0c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-btn1:hover,
+  .contact-btn1:hover {
+    background-color: #f10c0c;
+    transform: scale(1.1);
+  }
+
+  .contact-form {
+    background-color:  #050397;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .contact-form h3 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form label {
+    color: white;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-left: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
