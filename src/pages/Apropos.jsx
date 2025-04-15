@@ -1,7 +1,7 @@
 import React from "react";
 import HeadApropos from "../components/A propos/HeadApropos";
 import Ourmission from "../components/A propos/Ourmission";
-import Footer from "../components/Footer/Footer";
+//import Footer from "../components/Footer/Footer";
 
 
 const Apropos = () =>{
@@ -9,7 +9,7 @@ const Apropos = () =>{
         <div>
             <HeadApropos/>
             <Ourmission/> 
-            <Footer/>
+            
         </div>
     )
 }

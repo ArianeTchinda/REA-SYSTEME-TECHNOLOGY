@@ -12,6 +12,7 @@
 }
 
 .navbar1 {
+    position: sticky;
     background-color: #f3f5f8;
    /* background-image: url("../images/white-backgound1.jpeg");*/
     color: rgb(3, 3, 3);

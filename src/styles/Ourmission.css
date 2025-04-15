@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 0px 50px;
+    padding: 0px 15px;
 }
 
 .presentation{
@@ -183,30 +183,32 @@
 
 .partenaires {
     margin: 20px 0;
-    background-color: #f3f3f3;
-    padding: 15px;
+    background-color: rgb(9, 1, 77);
+    padding: 20px;
     width: 100%;
 }
-
-.partenaires marquee {
-    background-color: cornflowerblue;
+.scrolling-container {
     display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.partenaires img {
-    height: 100px;
-    border-radius: 50px;
-    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
     object-fit: fill;
-    transition: transform 0.3s ease;
+    animation: scroll 10s linear infinite;
 }
 
-.partenaires img:hover {
-    transform: scale(1.1);
+.scrolling-container img {
+    margin-right: 20px;
+    height: 150px;
+    border-radius: 100px;
 }
 
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
 .valeurs-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

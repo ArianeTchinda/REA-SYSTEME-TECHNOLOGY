@@ -94,7 +94,7 @@
   .contact-form label {
     color: white;
     font-weight: bold;
-    align-self: flex-start;
+    align-self: center;
     margin-left: 5px;
   }
   
@@ -108,3 +108,6 @@
     max-width: 300px;
   }
   
+  .contact-form textarea{
+    padding: 20px;
+  }

@@ -1,4 +1,5 @@
 .navbar {
+  position: sticky;
   background-color: rgb(17, 3, 144);
   color: white;
   display: flex;

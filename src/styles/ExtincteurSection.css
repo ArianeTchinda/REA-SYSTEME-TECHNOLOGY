@@ -3,12 +3,14 @@
     border-bottom: 2px solid #ccc;
   }
   
+  
   .extincteur-title {
     font-size: 2rem;
     margin-left: 20px;
     font-weight: 900;
     text-align: start;
     color: red;
+    
   }
   
   .extincteur-description {

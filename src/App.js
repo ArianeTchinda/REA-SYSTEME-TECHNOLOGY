@@ -7,6 +7,7 @@ import Navbarone from './components/Acceuil/Navbar1';
 import Navbar from './components/Acceuil/Navbar';
 import Electronique from './components/Electronique/Elecronique';
 import Contact from './pages/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
          <Route path="/Produits/controle-d'acces" element = {<Electronique/>} />
        </Routes>
     </div>
+    <Footer/>
     </Router>
+  
    
   );
 }

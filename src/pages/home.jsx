@@ -3,7 +3,7 @@ import React from "react";
 import HeadSection from "../components/Acceuil/HeadSection";
 import InfoSection from "../components/Acceuil/InfoSection";
 //import Navbarone from "../components/Acceuil/Navbar1";
-import Footer from "../components/Footer/Footer";
+//import Footer from "../components/Footer/Footer";
 import Prestation from "../components/Acceuil/Prestation";
 import Produits  from "../components/Acceuil/Produits";
 import Localisation  from "../components/Acceuil/location";
@@ -26,7 +26,7 @@ const HomePage = () => {
 
       <Realisations/>
 
-      <Footer/>
+      
 
     </div>
   );

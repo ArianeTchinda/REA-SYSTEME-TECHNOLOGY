@@ -56,7 +56,7 @@ const Footer = () => {
             <li>Nsam, Yaounde</li>
             <li>+237 686677486</li>
             <li>Reasytemetech@gmail.com</li>
-            <li><a href="/Apropos" style={{ textDecoration: 'none' }}>Voir plus</a></li>
+            <li><a href="/à-propos" style={{ textDecoration: 'none' }}>Voir plus</a></li>
            
           </ul>
         </div>
